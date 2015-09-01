@@ -81,7 +81,7 @@ class Indicator: UIView {
         }()
     
     lazy var rotateZAnimation: CABasicAnimation = {
-        let  rotateZ = CABasicAnimation(keyPath: "transform.rotation.y")
+        let  rotateZ = CABasicAnimation(keyPath: "transform.rotation.z")
         rotateZ.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
         rotateZ.duration = 2
         rotateZ.fromValue = 0
